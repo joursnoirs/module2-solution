@@ -33,17 +33,20 @@
 }
 .header3 > h3{
     padding: 30rem;
-    text-align: center;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
     font-size: 30px;
     background-color: inherit;
 }
 .column {
     float: left;
-    width: 33.33%;
+    width: 10px;
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
     border-color: black;
+    margin: 30px;
 }
 @media (max-width: 600px) {
     .column {
