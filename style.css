@@ -34,6 +34,7 @@
     font-size: 30px;
     background-color: inherit;
     display: block;
+    float:right, top;
 }
 .header3 > h3{
     padding: 3rem;
@@ -41,6 +42,7 @@
     font-size: 30px;
     background-color: inherit;
     display: block;
+    float:right, top;
 }
 .header4 > h4{
     padding: 3rem;
@@ -48,8 +50,9 @@
     bottom: 5px;
     left: 5px;
     font-size: 30px;
-    background-color: inherit;
+    background-color: inherit;                                                                                         
     display: block;
+    float:right, top;
 }
 .column {
     float: left;
