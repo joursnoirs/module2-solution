@@ -20,10 +20,11 @@
   border-radius: 15rem;
 }
 .header{
-    padding: 30rem;
+    padding: 10rem;
     text-align: center;
     font-size: 30px;
     background-color: lightgray;
+    background-size: 10rem;
 }
 .header2 > h2{
     padding: 30rem;
