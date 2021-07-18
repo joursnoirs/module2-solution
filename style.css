@@ -19,7 +19,7 @@
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15rem;
 }
-.header{
+.header > header{
     padding: 30rem;
     text-align: center;
     font-size: 30px;
