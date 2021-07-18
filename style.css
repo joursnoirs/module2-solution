@@ -19,7 +19,19 @@
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15rem;
 }
-.header > header{
+.header1 > h1{
+    padding: 30rem;
+    text-align: center;
+    font-size: 30px;
+    background-color: inherit;
+}
+.header2 > h2{
+    padding: 30rem;
+    text-align: center;
+    font-size: 30px;
+    background-color: inherit;
+}
+.header3 > h3{
     padding: 30rem;
     text-align: center;
     font-size: 30px;
@@ -30,6 +42,7 @@
     width: 33.33%;
     padding: 10px;
     background-color: gray;
+    border: black;
 }
 @media (max-width: 600px) {
     .column {
