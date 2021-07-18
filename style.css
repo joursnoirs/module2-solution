@@ -4,13 +4,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.h1{
+.h2{
     background-color: indigo;
 }
-.h2{
+.h3{
     background-color: red;
 }
-.h3{
+.h4{
     background-color: burlywood;
 }
 .p{position: relative;
@@ -19,11 +19,11 @@
   font-family: 'Courier New', Courier, monospace;
   border-radius: 15rem;
 }
-.header1 > h1{
+.header{
     padding: 30rem;
     text-align: center;
     font-size: 30px;
-    background-color: inherit;
+    background-color: lightgray;
 }
 .header2 > h2{
     padding: 30rem;
@@ -33,6 +33,12 @@
 }
 .header3 > h3{
     padding: 30rem;
+    text-align: center;
+    font-size: 30px;
+    background-color: inherit;
+}
+.header4 > h4{
+    padding: 30rem;
     position: relative;
     bottom: 5px;
     left: 5px;
@@ -41,7 +47,7 @@
 }
 .column {
     float: left;
-    width: relative;
+    width: 33%; /* I need to make this use the g rid system to responsively change based on screen size */
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
