@@ -41,7 +41,7 @@
 }
 .column {
     float: left;
-    width: 10px;
+    width: relative;
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
