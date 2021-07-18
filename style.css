@@ -23,6 +23,7 @@
     padding: 30rem;
     text-align: center;
     font-size: 30px;
+    background-color: inherit;
 }
 .column {
     float: left;
