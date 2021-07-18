@@ -64,7 +64,7 @@
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
-    border-color: black;
+    border: 1px solid black;
     margin: 3px;
 }
 @media (max-width: 600px) {
