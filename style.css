@@ -60,7 +60,7 @@
 }
 .column {
     float: left;
-    width: 33%; /* I need to make this use the g rid system to responsively change based on screen size */
+    width: 29%; /* I need to make this use the g rid system to responsively change based on screen size */
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
