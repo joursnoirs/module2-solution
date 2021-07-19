@@ -1,16 +1,16 @@
 
-.body{
+body{
     background-color: lightgray;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.h2{
+h2{
     background-color: indigo;
 }
-.h3{
+h3{
     background-color: red;
 }
-.h4{
+h4{
     background-color: burlywood;
 }
 .p{position: relative;
