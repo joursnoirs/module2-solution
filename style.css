@@ -23,7 +23,6 @@
     padding: 10rem;
     text-align: center;
     font-size: 30px;
-    background-color: lightgray;
     background-size: 10rem;
     padding: 0rem;
     display: block;
@@ -35,7 +34,7 @@
     background-color: inherit;
     display: block;
     float:right, top;
-    margin:0rem
+    margin:0rem;
 }
 .header3 > h3{
     padding: 3rem;
@@ -44,7 +43,7 @@
     background-color: inherit;
     display: block;
     float:right, top;
-    margin:0rem
+    margin:0rem;
 
 }
 .header4 > h4{
@@ -58,7 +57,7 @@
     height: min-content;                                                                                        
     display: block;
     float:right, top;
-    margin:0rem
+    margin:0rem;
 }
 .column {
     float: left;
