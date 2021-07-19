@@ -29,7 +29,7 @@ h4{
 }
 .header2 > h2{
     padding: 3rem;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     background-color: inherit;
     display: block;
@@ -38,7 +38,7 @@ h4{
 }
 .header3 > h3{
     padding: 3rem;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     background-color: inherit;
     display: block;
@@ -48,7 +48,7 @@ h4{
 }
 .header4 > h4{
     padding: 3rem;
-    position: relative;
+    position: right;
     bottom: 5px;
     left: 5px;
     font-size: 30px;
@@ -58,10 +58,11 @@ h4{
     display: block;
     float:right, top;
     margin:0rem;
+    border: 1px solid black;
 }
 .column {
     float: left;
-    width: 29%; /* I need to make this use the g rid system to responsively change based on screen size */
+    width: 29%; /* I need to make this use the grid system to responsively change based on screen size */
     padding: 10px;
     background-color: gray;
     border-radius: 4px;
