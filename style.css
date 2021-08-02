@@ -1,6 +1,6 @@
 
 body{
-    background-color: lightgray;
+    background-color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -10,6 +10,7 @@ p{position: relative;
   border: black;
   font-family: 'Courier New', Courier, monospace;
   margin-left: 1em;
+  margin-top: 2.3em;
   
 }
 .header{
@@ -20,35 +21,75 @@ p{position: relative;
     padding: 0rem;
     display: block;
 
+
 }
 .title {
-    position: relative;
+    position: center;
     float: right;
     font-size: 25px;                                                                                       
-    width: min-content;
-
+    width: 150px;
     border: 2px solid black;
+    font-weight: bolder;
+
+}
+
+p > .title {
+font-display: l;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: relative;
+
 }
 .column {
-    float: left;
-    width: 33%; /* I need to make this use the grid system to responsively change based on screen size */
+
+    width: 30%; /* I need to make this use the grid system to responsively change based on screen size */
+    display: inline-block;
+    font-weight: bolder;
+ 
     padding: 0px;
     background-color: gray;
     border-radius: 4px;
     border: 3px solid black;
-    margin: 3px;
+    margin: 4px;
 }
-@media all and (orientation: landscape), (max-width: 600px) {
+
+
+
+@media all and (max-width: 1500px) {
     .column {
-      width: 100%;
+      width: 25%;
+      float:left;
     }
-  }
-@media (max-width: 400px) {
+    
+
+
+  
+
+@media all and (min-width: 1200px) {
+    #first {
+        width: 48.5%;
+        float: left;
+        margin-right: .5rem;
+        margin-bottom: 1rem;
+    }
+    #second {
+        width: 48.5%;
+        float: right;
+        margin-right: .5rem;
+        margin-bottom: 1rem;
+    }
+    #third {
+        width: 100%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+}
+
+@media all and (max-width: 700px) {
     .column {
-        width: 50%;
+        float:left;
+        margin-bottom: 1rem;
     
     }
-    .header4 {
-        width: 100%
-    }
+
+}
 }
