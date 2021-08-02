@@ -2,6 +2,7 @@
 body{
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
+    margin: 4rem;
 }
 
 
@@ -22,6 +23,7 @@ p{position: relative;
     display: block;
 
 
+
 }
 .title {
     position: center;
@@ -30,13 +32,18 @@ p{position: relative;
     width: 150px;
     border: 2px solid black;
     font-weight: bolder;
+    font-family: cursive;
+    
+ 
+
 
 }
 
 p > .title {
 font-display: l;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-position: relative;
+
+
 
 }
 .column {
@@ -44,7 +51,6 @@ position: relative;
     width: 30%; /* I need to make this use the grid system to responsively change based on screen size */
     display: inline-block;
     font-weight: bolder;
- 
     padding: 0px;
     background-color: gray;
     border-radius: 4px;
@@ -56,15 +62,11 @@ position: relative;
 
 @media all and (max-width: 1500px) {
     .column {
-      width: 25%;
+      width: 27%;
       float:left;
     }
-    
 
-
-  
-
-@media all and (min-width: 1200px) {
+@media all and (min-width: 700px) {
     #first {
         width: 48.5%;
         float: left;
@@ -82,13 +84,23 @@ position: relative;
         margin-left: .5rem;
         margin-right: .5rem;
     }
-}
 
-@media all and (max-width: 700px) {
+}
+@media all and (max-width: 830px) {
     .column {
+        display: block;
+        width: 100%;
         float:left;
-        margin-bottom: 1rem;
+        display:flexbox;
     
+    }
+    #second{
+        float: left;
+        display: block;
+    }
+    #third{
+        float: left;;
+        display: block;
     }
 
 }
