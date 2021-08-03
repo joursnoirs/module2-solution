@@ -22,9 +22,17 @@ p{position: relative;
     padding: 0rem;
     display: block;
 
-
-
 }
+#firsttitle{
+    background-color: lightcoral; 
+}
+#secondtitle{
+    background-color: rgb(119, 7, 7); color:white 
+}
+#thirdtitle{
+    background-color: beige; 
+}
+
 .title {
     text-align: center;
     float: right;
@@ -48,7 +56,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .column {
 
-    width: 30%; /* I need to make this use the grid system to responsively change based on screen size */
+    width: 30%; 
     display: inline-block;
     font-weight: bolder;
     padding: 0px;
@@ -59,7 +67,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-
+/* I need to make this use the grid system to responsively change based on screen size */
 @media all and (max-width: 1500px) {
     .column {
       width: 27%;
