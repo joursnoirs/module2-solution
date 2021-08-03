@@ -68,7 +68,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 /* I need to make this use the grid system to responsively change based on screen size */
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1300px) {
     .column {
       width: 27%;
       float:left;
